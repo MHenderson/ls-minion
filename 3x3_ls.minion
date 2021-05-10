@@ -1,0 +1,20 @@
+MINION 3
+
+**VARIABLES**
+DISCRETE l[3,3] {0..2}
+
+**SEARCH**
+PRINT ALL
+
+**CONSTRAINTS**
+
+# Latin constraints. 
+
+alldiff(l[0,_])
+alldiff(l[_,0])
+alldiff(l[1,_])
+alldiff(l[_,1])
+alldiff(l[2,_])
+alldiff(l[_,2])
+
+**EOF**
